@@ -36,7 +36,7 @@ Doporučené pořadí obsahu stránky:
 
 Názvy volitelných sekcí lze přizpůsobit nástroji; u Hlasování například **Proč právě Ano, Ne a Napůl?**
 
-Úvodní stránka je automatický katalog nástrojů, generovaný z Markdown souborů. Nový nástroj nemá vyžadovat ruční editaci seznamu.
+Úvodní stránka obsahuje krátký konkrétní tip na začátek a automatický katalog nástrojů, generovaný z Markdown souborů. Nový nástroj nemá vyžadovat ruční editaci seznamu.
 
 ## Vzorová stránka: Hlasování
 
@@ -57,6 +57,12 @@ Praktické inspirace: rychlá zpětná vazba, stejná otázka před výkladem a 
 - **Oba typy boxů zapisovat jednotně jako standardní Markdown blockquote**: řádek začíná znakem `>` a tučným označením, např. `> **Proč to funguje?** ...` nebo `> **Na co si dát pozor?** ...`. Vzhled určuje společné CSS pro `blockquote`, nikoli pozice odstavce. Technicky jde o citaci použitou jako poznámkový box; při případném přechodu na sémantické komponenty zachovat jednoduchost editace.
 - Jednoduchost, čitelnost a přístupnost jsou důležitější než efektní grafika.
 - Screenshoty používat jen tehdy, když skutečně pomohou.
+
+## Propojení s blogem
+
+- Blog Živé tabule vysvětluje souvislosti a důvody našich rozhodnutí, katalog tipů ukazuje konkrétní využití při výuce.
+- Pokud existuje přímo související blogový článek, na konci příslušného tipu může být nenápadná sekce **Přečtěte si také**. Odkazování funguje i opačným směrem.
+- Úvodní stránka nabízí vedle katalogu jednu stručnou konkrétní inspiraci; zatím bez kategorií, filtrů a složitějších funkcí.
 
 ## Technické řešení
 
