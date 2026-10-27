@@ -11,8 +11,15 @@ const { frontmatter } = Astro.props;
 *{box-sizing:border-box}body{max-width:800px;margin:auto;padding:2rem 1rem;line-height:1.7}
 a{color:#176c70}nav{margin-bottom:1.5rem}
 main{background:white;padding:clamp(1.2rem,4vw,2.5rem);border-radius:20px;border:1px solid #dce6df}
-h1{line-height:1.2}h2{margin-top:2rem;border-top:1px solid #dce6df;padding-top:1.5rem}
-h3{margin-bottom:.3rem}h2 + h3{margin-top:1rem}h3{padding:1rem 1rem 0;background:#f4f8f5;border:1px solid #dce6df;border-bottom:0;border-radius:12px 12px 0 0}h3 + p{margin-top:0;padding:0 1rem 1rem;background:#f4f8f5;border:1px solid #dce6df;border-top:0;border-radius:0 0 12px 12px}h3 + p + p{padding:.75rem 1rem;border-left:3px solid #5b9b8d;background:#f0f6f2;border-radius:6px}.cta{display:inline-block;margin-top:1.5rem;padding:.65rem 1rem;border-radius:8px;background:#145b56;color:white;text-decoration:none}
+h1{line-height:1.2}
+h2{font-size:1.55rem;line-height:1.3;margin:2.5rem 0 1.5rem;padding-top:1.4rem;border-top:1px solid #dce6df;color:#173e3b}
+h2::after{content:"";display:block;width:52px;height:3px;margin-top:.7rem;background:#176c70;border-radius:3px}
+h3{font-size:1.13rem;line-height:1.4;margin:1.8rem 0 .65rem;color:#173e3b}
+h2+h3{margin-top:1.1rem}
+h3:not(:first-of-type){border-top:1px solid #dce6df;padding-top:1.5rem}
+h3+p{margin-top:.3rem}
+h3+p+p{padding:.75rem 1rem;border-left:3px solid #5b9b8d;background:#f0f6f2;border-radius:6px}
+.cta{display:inline-block;margin-top:1.5rem;padding:.65rem 1rem;border-radius:8px;background:#145b56;color:white;text-decoration:none}
 </style></head>
 <body><nav><a href="/">← Všechny nástroje</a></nav><main><slot/></main></body>
 </html>
