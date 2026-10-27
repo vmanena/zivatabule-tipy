@@ -26,7 +26,7 @@ a{color:#125a52}header{margin-bottom:2rem}h1{font-size:2rem;line-height:1.2}
 </head>
 <body>
 <header><p><a href="https://zivatabule.cz">Živá tabule ↗</a></p><h1>Tipy pro Živou tabuli</h1><p>Živá tabule nabízí nástroje. Tady najdete konkrétní nápady, jak s nimi učit – a krátké návody, abyste mohli rovnou začít.</p></header>
-<main><section class="inspiration" aria-label="Tip na začátek"><p><strong>Tip na začátek</strong></p><p id="daily-tip">{dailyTips[0].text} <a href={dailyTips[0].href}>{dailyTips[0].label}</a></p></section><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
+<main><section class="inspiration" aria-label="Tip na začátek"><p><strong>💡 Tip na začátek</strong></p><p id="daily-tip">{dailyTips[0].text} <a href={dailyTips[0].href}>{dailyTips[0].label}</a></p></section><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
 <Footer />
 <script>
   import dailyTips from "../data/tipy.json";
