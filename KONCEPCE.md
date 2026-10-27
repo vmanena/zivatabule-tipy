@@ -52,6 +52,8 @@ Praktické inspirace: rychlá zpětná vazba, stejná otázka před výkladem a 
 - **Světlé, lehce zelenošedé pozadí** pro pohodlné čtení, bílé karty, výrazný kontrast textu a odkazů.
 - Úvodní katalog a delší stránky mohou mít rozdílné rozvržení, ale společnou vizuální identitu.
 - Pedagogické nápady přehledně oddělovat; vysvětlení **Proč to funguje?** vizuálně zvýraznit střídmě.
+- Nadpisy H2 a H3 jasně odlišovat: H2 výraznější s krátkou petrolejovou linkou, H3 menší; mezi jednotlivými nápady používat jemné oddělovací čáry.
+- Používat jednotné decentní informační boxy pro **Proč to funguje?** a **Na co si dát pozor?**. Druhý typ upozorňuje na pedagogická omezení či rizika a nahrazuje samostatnou poznámku kurzívou.
 - Jednoduchost, čitelnost a přístupnost jsou důležitější než efektní grafika.
 - Screenshoty používat jen tehdy, když skutečně pomohou.
 
