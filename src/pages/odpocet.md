@@ -14,9 +14,10 @@ Každá aktivita potřebuje svůj čas. A každá skupina může potřebovat jin
 ## Jak na to
 
 1. Otevřete nástroj **Odpočet**.
-2. Nastavte požadovanou dobu a spusťte odpočítávání.
-3. Potřebujete další časový limit? Otevřete další **Odpočet**, nastavte jinou dobu a spusťte ho také.
-4. Jednotlivé odpočty si na tabuli rozmístěte tak, aby bylo jasné, ke kterému úkolu patří.
+2. Odpočet si můžete přejmenovat podle aktivity nebo skupiny, například **Skupina A**.
+3. Vyberte **Délka** a nastavte minuty a sekundy, případně zvolte **Do času** pro odpočítávání do konkrétního času.
+4. Klikněte na **Start**.
+5. Pro další časový limit klikněte na tlačítko **+ Přidat odpočet**, nový odpočet pojmenujte, nastavte a spusťte. Takto můžete používat více odpočtů současně.
 
 > **Tip:** Nemusíte mít jeden společný čas pro celou třídu. Současně může běžet několik odpočtů s různými limity.
 
@@ -30,7 +31,7 @@ Představte si hodinu informatiky, ve které skupiny řeší různě náročné 
 - **Skupina B – 8 minut:** Porovnejte dvě metody dvoufaktorového ověřování.
 - **Skupina C – 12 minut:** Navrhněte postup zabezpečení školního účtu po podezření na napadení.
 
-Na tabuli spustíte **tři odpočty najednou**. Každá skupina sleduje svůj časový limit a učitel se může místo opakovaného hlídání času věnovat práci žáků.
+Pomocí tlačítka **+ Přidat odpočet** připravíte tři samostatné odpočty, pojmenujete je podle skupin a spustíte. Každá skupina sleduje svůj časový limit a učitel se může místo opakovaného hlídání času věnovat práci žáků.
 
 > **Proč to funguje?** Různě náročné úkoly nemusí mít stejný časový limit. Žáci mají jasně vymezený čas a mohou si lépe rozvrhnout práci.
 
