@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Potřebujete rychle zjistit, co si žáci myslí? Vyzkoušejte Hlasování a začněte společnou diskusi.",
+    "href": "/hlasovani/",
+    "label": "Hlasování"
+  },
+  {
+    "text": "Položte stejnou otázku na začátku a na konci hodiny. Změnily se odpovědi žáků?",
+    "href": "/hlasovani/",
+    "label": "Hlasování"
+  },
+  {
+    "text": "Každá skupina může mít jiný úkol i časový limit. Přidejte několik odpočtů současně.",
+    "href": "/odpocet/",
+    "label": "Odpočet"
+  },
+  {
+    "text": "Před diskusí dejte každému 30 sekund na vlastní promyšlení odpovědi.",
+    "href": "/odpocet/",
+    "label": "Odpočet"
+  },
+  {
+    "text": "Při písemce zkuste místo ubývajícího odpočtu běžné hodiny. Některým žákům mohou vyhovovat víc.",
+    "href": "/hodiny/",
+    "label": "Hodiny"
+  },
+  {
+    "text": "Učíte děti poznávat čas? Přepínejte mezi velkými analogovými a digitálními hodinami.",
+    "href": "/hodiny/",
+    "label": "Hodiny"
+  },
+  {
+    "text": "Na hřiště nepotřebujete počítač. Otevřete Stopky na mobilu a zaznamenávejte časy.",
+    "href": "/stopky/",
+    "label": "Stopky"
+  },
+  {
+    "text": "Změřte se žáky čas chůze na známé vzdálenosti a společně vypočítejte průměrnou rychlost.",
+    "href": "/stopky/",
+    "label": "Stopky"
+  },
+  {
+    "text": "Sbíráte výstupy skupinové práce? Nechte žáky odevzdat soubory pomocí QR kódu.",
+    "href": "/prenos-souboru/",
+    "label": "Přenos souborů"
+  },
+  {
+    "text": "Rozdejte pracovní list v PDF bez e-mailů: nahrajte soubor a promítněte QR kód.",
+    "href": "/prenos-souboru/",
+    "label": "Přenos souborů"
+  }
+]
