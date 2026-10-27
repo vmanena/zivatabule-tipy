@@ -63,6 +63,7 @@ Praktické inspirace: rychlá zpětná vazba, stejná otázka před výkladem a 
 - Zdrojový repozitář: [vmanena/zivatabule-tipy](https://github.com/vmanena/zivatabule-tipy).
 - Statický web postavený na **Astro**.
 - Obsah primárně v **Markdownu**, upravitelný přímo na GitHubu.
+- Zápatí s výzvou k finanční podpoře a zpětné vazbě je společná komponenta `src/components/Footer.astro`, použitá na úvodní stránce i v šabloně článků. Text a odkazy se spravují na jediném místě; zpětná vazba odkazuje na hlavní Živou tabuli, kde je dostupná příslušná funkce.
 - Hosting a automatické publikování přes **Cloudflare Pages**, produkční větev `main`.
 - Veřejná adresa: [tipy.zivatabule.cz](https://tipy.zivatabule.cz).
 - Bez databáze, přihlašování a zbytečné složitosti.
