@@ -26,13 +26,13 @@ Odkaz na hlasování můžete také zkopírovat tlačítkem **Kopírovat**. Tla�
 
 Na konci hodiny se zeptejte: „Dokázal(a) bych dnešní téma vysvětlit spolužákovi?“ Výsledky vám napoví, zda je potřeba něco zopakovat. U odpovědí „Napůl“ se můžete zeptat, co ještě chybí k porozumění.
 
-**Proč to funguje?** Žáci se krátce zamyslí nad vlastním učením. Samotné hlasování ale porozumění neprokazuje – berte ho jako podnět k rozhovoru.
+> **Proč to funguje?** Žáci se krátce zamyslí nad vlastním učením. Samotné hlasování ale porozumění neprokazuje – berte ho jako podnět k rozhovoru.
 
 ### Stejná otázka dvakrát
 
 Na začátku hodiny položte otázku, na kterou mohou mít žáci různé názory. Nechte je hlasovat. Stejnou otázku zopakujte na konci hodiny. Změnily se výsledky? Zeptejte se žáků, co je přimělo změnit názor.
 
-**Proč to funguje?** Žáci si uvědomují, jak se jejich uvažování změnilo. Učitel zároveň získává zpětnou vazbu o tom, jak výuka ovlivnila jejich porozumění.
+> **Proč to funguje?** Žáci si uvědomují, jak se jejich uvažování změnilo. Učitel zároveň získává zpětnou vazbu o tom, jak výuka ovlivnila jejich porozumění.
 
 ### Začněte diskusi
 
