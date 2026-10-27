@@ -1,4 +1,5 @@
 ---
+import Footer from '../components/Footer.astro';
 const pages = import.meta.glob('./*.md', { eager: true });
 const tools = Object.entries(pages).map(([path, page]) => ({
   title: page.frontmatter.title,
@@ -20,11 +21,10 @@ a{color:#125a52}header{margin-bottom:2rem}h1{font-size:2rem;line-height:1.2}
 .catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .card{display:block;padding:1.2rem;background:#ffffff;border:1px solid transparent;border-radius:22px;text-decoration:none;color:#204a52}
 .card:hover{background:#edf4ef}.card:focus-visible{outline:2px solid #145b56;outline-offset:3px}.card h2{margin:0 0 .5rem;border:0;padding:0}.card h2::after{content:none;display:none}.card p{margin:0}
-footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #dce6df;font-size:.9rem;color:#42645b}footer h2{font-size:1.1rem;color:#143a33;margin:0 0 .5rem}footer p{margin:.5rem 0}footer .footer-links{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin-top:.85rem}footer .footer-note{margin-top:1.5rem;font-size:.85rem}
 </style>
 </head>
 <body>
 <header><p><a href="https://zivatabule.cz">Živá tabule ↗</a></p><h1>Tipy pro Živou tabuli</h1><p>Živá tabule nabízí nástroje. Tady najdete konkrétní nápady, jak s nimi učit – a krátké návody, abyste mohli rovnou začít.</p></header>
 <main><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
-<footer><h2>Pomozte nám udržet Živou tabuli při životě</h2><p>Živou tabuli vyvíjíme a provozujeme zdarma, bez reklam a bez registrace. Abychom v tom mohli pokračovat, potřebujeme vaši pomoc. Potěší nás finanční příspěvek, ale také každý nápad, připomínka nebo hlášení chyby.</p><div class="footer-links"><a href="https://zivatabule.cz/podpora">Podpořit Živou tabuli ↗</a><a href="https://zivatabule.cz/">Poslat zpětnou vazbu v Živé tabuli ↗</a></div><p class="footer-note">Živá tabule · Bez účtu. Bez reklam. Bez sledování.</p></footer>
+<Footer />
 </body></html>
