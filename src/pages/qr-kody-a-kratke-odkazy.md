@@ -49,3 +49,7 @@ Slovo *go* děti často znají už od prvních hodin angličtiny. Učitel na ně
 Zkracovač je součástí nástroje pro práci ve třídě, nikoli samostatná služba určená především ke zkracování libovolných adres. Stálý začátek `go.zivatabule.cz/` si mohou žáci postupně zapamatovat. Při opakovaném používání pak opisují hlavně kód za lomítkem.
 
 > **Na co si dát pozor?** Krátký odkaz neprozrazuje, kam skutečně vede. Před sdílením ověřte cílovou stránku a žákům připomeňte, že ani známá doména sama o sobě nezaručuje bezpečný obsah. Při opisování mohou být obtížná zejména podobná malá a velká písmena; proto je dobré vždy nabídnout i QR kód.
+
+## Přečtěte si také
+
+Proč má náš zkracovač právě takovou adresu? Na [blogu Živé tabule vysvětlujeme, proč nehledáme nejkratší URL na světě](https://blog.zivatabule.cz/2026-10-27-proc-nas-zkracovac-nema-nejkratsi-adresy-na-svete/).
