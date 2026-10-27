@@ -1,5 +1,6 @@
 ---
 import Footer from '../components/Footer.astro';
+import dailyTips from '../data/tipy.json';
 const pages = import.meta.glob('./*.md', { eager: true });
 const tools = Object.entries(pages).map(([path, page]) => ({
   title: page.frontmatter.title,
@@ -25,6 +26,22 @@ a{color:#125a52}header{margin-bottom:2rem}h1{font-size:2rem;line-height:1.2}
 </head>
 <body>
 <header><p><a href="https://zivatabule.cz">Živá tabule ↗</a></p><h1>Tipy pro Živou tabuli</h1><p>Živá tabule nabízí nástroje. Tady najdete konkrétní nápady, jak s nimi učit – a krátké návody, abyste mohli rovnou začít.</p></header>
-<main><section class="inspiration" aria-label="Tip na začátek"><p><strong>Tip na začátek</strong></p><p>Potřebujete rychle zjistit, co si žáci myslí? Vyzkoušejte <a href="/hlasovani/">Hlasování</a> a začněte společnou diskusi.</p></section><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
+<main><section class="inspiration" aria-label="Tip na začátek"><p><strong>Tip na začátek</strong></p><p id="daily-tip">{dailyTips[0].text} <a href={dailyTips[0].href}>{dailyTips[0].label}</a></p></section><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
 <Footer />
+<script>
+  import dailyTips from "../data/tipy.json";
+  // Jeden tip na kalendářní den v českém časovém pásmu, shodný pro všechny návštěvníky.
+  const parts = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Prague", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date());
+  const part = (name) => Number(parts.find(p => p.type === name)?.value);
+  const day = Math.floor(Date.UTC(part("year"), part("month") - 1, part("day")) / 86400000);
+  const tip = dailyTips[((day % dailyTips.length) + dailyTips.length) % dailyTips.length];
+  const target = document.getElementById("daily-tip");
+  if (target && tip) {
+    target.replaceChildren(document.createTextNode(tip.text + " "));
+    const link = document.createElement("a");
+    link.href = tip.href;
+    link.textContent = "Více: " + tip.label;
+    target.append(link);
+  }
+</script>
 </body></html>
