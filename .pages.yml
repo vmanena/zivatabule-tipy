@@ -1,0 +1,41 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: tips
+    label: Tipy pro Živou tabuli
+    type: collection
+    path: src/pages
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, order, description]
+      primary: title
+      sort: [order, title]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: title
+        label: Název nástroje
+        type: string
+        required: true
+      - name: description
+        label: Krátký popis do katalogu
+        type: text
+        required: true
+      - name: order
+        label: Pořadí v katalogu
+        type: number
+        required: true
+      - name: layout
+        label: Šablona stránky
+        type: string
+        hidden: true
+        default: ../layouts/TipLayout.astro
+      - name: body
+        label: Obsah tipu (Markdown)
+        type: code
+        options:
+          language: markdown
