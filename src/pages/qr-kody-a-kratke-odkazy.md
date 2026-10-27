@@ -52,4 +52,4 @@ Zkracovač je součástí nástroje pro práci ve třídě, nikoli samostatná s
 
 ## Přečtěte si také
 
-Proč má náš zkracovač právě takovou adresu? Na [blogu Živé tabule vysvětlujeme, proč nehledáme nejkratší URL na světě](https://blog.zivatabule.cz/2026-10-27-proc-nas-zkracovac-nema-nejkratsi-adresy-na-svete/).
+Proč má náš zkracovač právě takovou adresu? Na [blogu Živé tabule vysvětlujeme, proč nehledáme nejkratší URL na světě](https://blog.zivatabule.cz/clanky/2026-10-27-proc-nas-zkracovac-nema-nejkratsi-adresy-na-svete/).
