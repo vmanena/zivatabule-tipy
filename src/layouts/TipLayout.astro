@@ -1,0 +1,10 @@
+---
+const { frontmatter } = Astro.props;
+---
+<!doctype html>
+<html lang="cs">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>{frontmatter.title} – Tipy pro Živou tabuli</title>
+    <style>:root{font-family:system-ui,sans-serif;color:#182333;background:#f7f9fc}body{max-width:760px;margin:auto;padding:2rem 1rem;line-height:1.7}a{color:#3740b9}main{background:white;padding:1.5rem;border-radius:12px;border:1px solid #e0e5ef}h1{line-height:1.2}</style>
+  </head>
+  <body><nav><a href="/">← Všechny tipy</a></nav><main><slot /></main></body>
+</html>
