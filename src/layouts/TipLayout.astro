@@ -7,12 +7,12 @@ const { frontmatter } = Astro.props;
 <meta name="description" content={frontmatter.description ?? ''}/>
 <title>{frontmatter.title} – Tipy pro Živou tabuli</title>
 <style>
-:root{font-family:system-ui,sans-serif;color:#182333;background:#f7f9fc}
+:root{font-family:system-ui,sans-serif;color:#203d3b;background:#f4f7f3}
 *{box-sizing:border-box}body{max-width:800px;margin:auto;padding:2rem 1rem;line-height:1.7}
-a{color:#3740b9}nav{margin-bottom:1.5rem}
-main{background:white;padding:clamp(1.2rem,4vw,2.5rem);border-radius:12px;border:1px solid #e0e5ef}
-h1{line-height:1.2}h2{margin-top:2rem;border-top:1px solid #e0e5ef;padding-top:1.5rem}
-h3{margin-bottom:.3rem}.cta{display:inline-block;margin-top:1.5rem;padding:.65rem 1rem;border-radius:8px;background:#3740b9;color:white;text-decoration:none}
+a{color:#176c70}nav{margin-bottom:1.5rem}
+main{background:white;padding:clamp(1.2rem,4vw,2.5rem);border-radius:20px;border:1px solid #dce6df}
+h1{line-height:1.2}h2{margin-top:2rem;border-top:1px solid #dce6df;padding-top:1.5rem}
+h3{margin-bottom:.3rem}.cta{display:inline-block;margin-top:1.5rem;padding:.65rem 1rem;border-radius:8px;background:#145b56;color:white;text-decoration:none}
 </style></head>
 <body><nav><a href="/">← Všechny nástroje</a></nav><main><slot/><a class="cta" href="https://zivatabule.cz/">Otevřít Živou tabuli ↗</a></main></body>
 </html>
