@@ -11,7 +11,7 @@ const tools = Object.entries(pages).map(([path, page]) => ({
 <html lang="cs">
 <head>
 <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Stručné návody a praktické tipy k nástrojům Živé tabule." />
+<meta name="description" content="Praktická inspirace do výuky a stručné návody k nástrojům Živé tabule." />
 <title>Tipy pro Živou tabuli</title>
 <style>
 :root{font-family:system-ui,sans-serif;color:#182333;background:#f7f9fc}
@@ -24,7 +24,7 @@ footer{margin-top:3rem;font-size:.9rem}
 </style>
 </head>
 <body>
-<header><p><a href="https://zivatabule.cz">← Živá tabule</a></p><h1>Tipy pro Živou tabuli</h1><p>Krátké návody a nápady do výuky. Jednoduše a prakticky.</p></header>
+<header><p><a href="https://zivatabule.cz">← Živá tabule</a></p><h1>Tipy pro Živou tabuli</h1><p>Živá tabule nabízí nástroje. Tady najdete konkrétní nápady, jak s nimi učit – a krátké návody, abyste mohli rovnou začít.</p></header>
 <main><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
 <footer>Živá tabule · Bez účtu. Bez reklam. Bez sledování.</footer>
 </body></html>
