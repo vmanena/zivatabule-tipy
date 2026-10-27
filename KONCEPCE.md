@@ -54,6 +54,7 @@ Praktické inspirace: rychlá zpětná vazba, stejná otázka před výkladem a 
 - Pedagogické nápady přehledně oddělovat; vysvětlení **Proč to funguje?** vizuálně zvýraznit střídmě.
 - Nadpisy H2 a H3 jasně odlišovat: H2 výraznější s krátkou petrolejovou linkou, H3 menší; mezi jednotlivými nápady používat jemné oddělovací čáry.
 - Používat jednotné decentní informační boxy pro **Proč to funguje?** a **Na co si dát pozor?**. Druhý typ upozorňuje na pedagogická omezení či rizika a nahrazuje samostatnou poznámku kurzívou.
+- **Oba typy boxů zapisovat jednotně jako standardní Markdown blockquote**: řádek začíná znakem `>` a tučným označením, např. `> **Proč to funguje?** ...` nebo `> **Na co si dát pozor?** ...`. Vzhled určuje společné CSS pro `blockquote`, nikoli pozice odstavce. Technicky jde o citaci použitou jako poznámkový box; při případném přechodu na sémantické komponenty zachovat jednoduchost editace.
 - Jednoduchost, čitelnost a přístupnost jsou důležitější než efektní grafika.
 - Screenshoty používat jen tehdy, když skutečně pomohou.
 
