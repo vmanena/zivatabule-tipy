@@ -19,7 +19,7 @@ const tools = Object.entries(pages).map(([path, page]) => ({
 a{color:#125a52}header{margin-bottom:2rem}h1{font-size:2rem;line-height:1.2}
 .catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .card{display:block;padding:1.2rem;background:#ffffff;border:1px solid transparent;border-radius:22px;text-decoration:none;color:#204a52}
-.card:hover{background:#edf4ef}.card:focus-visible{outline:2px solid #145b56;outline-offset:3px}.card h2{margin:0 0 .5rem}.card p{margin:0}
+.card:hover{background:#edf4ef}.card:focus-visible{outline:2px solid #145b56;outline-offset:3px}.card h2{margin:0 0 .5rem;border:0;padding:0}.card h2::after{content:none;display:none}.card p{margin:0}
 footer{margin-top:3rem;font-size:.9rem;color:#42645b}
 </style>
 </head>
