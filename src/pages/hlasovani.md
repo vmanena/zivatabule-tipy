@@ -1,32 +1,43 @@
 ---
 title: Hlasování
-description: Rychlé otázky a zpětná vazba ve třídě.
+description: Rychlá zpětná vazba pomocí odpovědí Ano, Ne a Napůl.
 order: 1
 layout: ../layouts/TipLayout.astro
 ---
 
 # Hlasování
 
-Hlasování pomůže rychle zjistit názory žáků, získat zpětnou vazbu nebo společně rozhodnout.
+Položte třídě otázku a během chvilky zjistěte, co si žáci myslí. Stačí jim mobil a QR kód.
 
 ## Jak na to
 
-1. Na [Živé tabuli](https://zivatabule.cz/) otevřete nástroj **Hlasování**.
-2. Připravte hlasování podle možností, které nástroj nabízí.
-3. Nechte žáky hlasovat a společně proberte výsledky.
+1. Na [Živé tabuli](https://zivatabule.cz/) otevřete **Hlasování**.
+2. Položte žákům otázku, na kterou lze odpovědět **Ano**, **Ne** nebo **Napůl**.
+3. Žáci naskenují zobrazený QR kód nebo otevřou odkaz a vyberou odpověď.
+4. Sledujte výsledky na tabuli a společně je proberte.
+
+Odkaz na hlasování můžete také zkopírovat tlačítkem **Kopírovat**. Tlačítkem **Reset** připravíte hlasování pro další otázku.
+
+## Proč právě Ano, Ne a Napůl?
+
+Tyto tři možnosti jsou pevně dané záměrně. Není potřeba nic nastavovat a hlasování může začít během několika sekund. **Napůl** umožňuje vyjádřit částečný souhlas i nejistotu. Cílem není nutit žáky hádat, ale podpořit jejich přemýšlení a následnou diskusi.
 
 ## Tipy do výuky
 
 ### Rychlá zpětná vazba
 
-Na konci hodiny zjistěte, jak dobře žáci tématu porozuměli. Výsledky využijte k rozhodnutí, co příště zopakovat.
+Na konci hodiny se zeptejte: „Rozumím dnešnímu tématu?“ Výsledky pomohou odhalit, co je potřeba zopakovat.
 
-### Rozhoduje třída
+### Před výkladem a po něm
 
-Nechte žáky vybrat, kterému z nabízených témat se budete věnovat podrobněji.
+Položte stejnou otázku na začátku a na konci hodiny. Porovnejte, jestli a proč se odpovědi změnily.
 
-### Úvodní otázka
+### Začněte diskusi
 
-Začněte hodinu otázkou, na kterou mohou mít žáci různé názory. Po hlasování porovnejte argumenty.
+Předložte tvrzení, na které mohou mít žáci různé názory. Po hlasování požádejte dobrovolníky, aby své rozhodnutí zdůvodnili.
 
-*Konkrétní kroky návodu ještě doladíme podle aktuálního rozhraní nástroje.*
+### Rozhodování ve třídě
+
+Zeptejte se například: „Chceme si téma ještě procvičit?“ Rychle získáte orientační přehled o postoji třídy.
+
+*Hlasování je orientační zpětná vazba, nikoli anonymní test znalostí. Nevyžadujte odpověď tam, kde žák skutečně nemá dost informací.*
