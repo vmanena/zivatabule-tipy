@@ -18,13 +18,13 @@ const tools = Object.entries(pages).map(([path, page]) => ({
 :root{font-family:system-ui,sans-serif;color:#143a33;background:#f5f7f4}
 *{box-sizing:border-box}body{max-width:900px;margin:0 auto;padding:2rem 1rem;line-height:1.6}
 a{color:#125a52}header{margin-bottom:2rem}h1{font-size:2rem;line-height:1.2}
-.catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.inspiration{background:#e9f2ec;border-radius:18px;padding:1rem 1.25rem;margin:0 0 1.5rem}.inspiration p{margin:.3rem 0}.inspiration a{font-weight:600}.catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .card{display:block;padding:1.2rem;background:#ffffff;border:1px solid transparent;border-radius:22px;text-decoration:none;color:#204a52}
 .card:hover{background:#edf4ef}.card:focus-visible{outline:2px solid #145b56;outline-offset:3px}.card h2{margin:0 0 .5rem;border:0;padding:0}.card h2::after{content:none;display:none}.card p{margin:0}
 </style>
 </head>
 <body>
 <header><p><a href="https://zivatabule.cz">Živá tabule ↗</a></p><h1>Tipy pro Živou tabuli</h1><p>Živá tabule nabízí nástroje. Tady najdete konkrétní nápady, jak s nimi učit – a krátké návody, abyste mohli rovnou začít.</p></header>
-<main><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
+<main><section class="inspiration" aria-label="Tip na začátek"><p><strong>Tip na začátek</strong></p><p>Potřebujete rychle zjistit, co si žáci myslí? Vyzkoušejte <a href="/hlasovani/">Hlasování</a> a začněte společnou diskusi.</p></section><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
 <Footer />
 </body></html>
