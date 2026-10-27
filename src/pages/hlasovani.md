@@ -46,4 +46,4 @@ Zeptejte se například: „Chceme si téma ještě procvičit?“ Rychle získ�
 
 Tyto tři možnosti jsou pevně dané záměrně. Není potřeba nic nastavovat a hlasování může začít během několika sekund. **Napůl** umožňuje vyjádřit částečný souhlas i nejistotu. Cílem není nutit žáky hádat, ale podpořit jejich přemýšlení a následnou diskusi.
 
-*Hlasování je orientační zpětná vazba, nikoli anonymní test znalostí. Nevyžadujte odpověď tam, kde žák skutečně nemá dost informací.*
+> **Na co si dát pozor?** Hlasování je orientační zpětná vazba, nikoli anonymní test znalostí. Nevyžadujte odpověď tam, kde žák skutečně nemá dost informací.
