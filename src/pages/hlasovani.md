@@ -9,6 +9,8 @@ layout: ../layouts/TipLayout.astro
 
 Položte třídě otázku a během chvilky zjistěte, co si žáci myslí. Stačí jim mobil a QR kód.
 
+<a class="cta" href="https://zivatabule.cz/">Otevřít Živou tabuli ↗</a>
+
 ## Jak na to
 
 1. Na [Živé tabuli](https://zivatabule.cz/) otevřete **Hlasování**.
@@ -17,10 +19,6 @@ Položte třídě otázku a během chvilky zjistěte, co si žáci myslí. Stač
 4. Sledujte výsledky na tabuli a společně je proberte.
 
 Odkaz na hlasování můžete také zkopírovat tlačítkem **Kopírovat**. Tlačítkem **Reset** připravíte hlasování pro další otázku.
-
-## Proč právě Ano, Ne a Napůl?
-
-Tyto tři možnosti jsou pevně dané záměrně. Není potřeba nic nastavovat a hlasování může začít během několika sekund. **Napůl** umožňuje vyjádřit částečný souhlas i nejistotu. Cílem není nutit žáky hádat, ale podpořit jejich přemýšlení a následnou diskusi.
 
 ## Inspirace do výuky
 
@@ -43,5 +41,9 @@ Předložte tvrzení, na které mohou mít žáci různé názory. Po hlasován�
 ### Rozhodování ve třídě
 
 Zeptejte se například: „Chceme si téma ještě procvičit?“ Rychle získáte orientační přehled o postoji třídy.
+
+## Proč právě Ano, Ne a Napůl?
+
+Tyto tři možnosti jsou pevně dané záměrně. Není potřeba nic nastavovat a hlasování může začít během několika sekund. **Napůl** umožňuje vyjádřit částečný souhlas i nejistotu. Cílem není nutit žáky hádat, ale podpořit jejich přemýšlení a následnou diskusi.
 
 *Hlasování je orientační zpětná vazba, nikoli anonymní test znalostí. Nevyžadujte odpověď tam, kde žák skutečně nemá dost informací.*
