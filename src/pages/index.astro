@@ -1,26 +1,30 @@
 ---
-const tips = [
-  { title: 'Hlasování', description: 'Rychlé otázky a zpětná vazba ve třídě.', href: '/hlasovani/' },
-];
+const pages = import.meta.glob('./*.md', { eager: true });
+const tools = Object.entries(pages).map(([path, page]) => ({
+  title: page.frontmatter.title,
+  description: page.frontmatter.description ?? '',
+  order: page.frontmatter.order ?? 999,
+  href: '/' + path.split('/').pop().replace(/\.md$/, '/') ,
+})).sort((a,b) => a.order - b.order || a.title.localeCompare(b.title, 'cs'));
 ---
 <!doctype html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Praktické tipy a návody pro Živou tabuli." />
-    <title>Tipy pro Živou tabuli</title>
-    <style>
-      :root { font-family: system-ui, sans-serif; color: #182333; background: #f7f9fc; }
-      body { max-width: 850px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.6; }
-      a { color: #3740b9; } header { margin-bottom: 2rem; }
-      .card { display: block; padding: 1.2rem; background: white; border: 1px solid #e0e5ef; border-radius: 12px; text-decoration: none; color: inherit; }
-      .card:hover { border-color: #3740b9; } .card h2 { margin: 0; } footer { margin-top: 3rem; }
-    </style>
-  </head>
-  <body>
-    <header><p><a href="https://zivatabule.cz">← Živá tabule</a></p><h1>Tipy pro Živou tabuli</h1><p>Krátké návody a nápady do výuky. Jednoduše a prakticky.</p></header>
-    <main>{tips.map((tip) => <a class="card" href={tip.href}><h2>{tip.title}</h2><p>{tip.description}</p></a>)}</main>
-    <footer><small>Živá tabule · Bez účtu. Bez reklam. Bez sledování.</small></footer>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Stručné návody a praktické tipy k nástrojům Živé tabule." />
+<title>Tipy pro Živou tabuli</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#182333;background:#f7f9fc}
+*{box-sizing:border-box}body{max-width:900px;margin:0 auto;padding:2rem 1rem;line-height:1.6}
+a{color:#3740b9}header{margin-bottom:2rem}h1{font-size:2rem;line-height:1.2}
+.catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.card{display:block;padding:1.2rem;background:white;border:1px solid #e0e5ef;border-radius:12px;text-decoration:none;color:inherit}
+.card:hover,.card:focus-visible{border-color:#3740b9}.card h2{margin:0 0 .5rem}.card p{margin:0}
+footer{margin-top:3rem;font-size:.9rem}
+</style>
+</head>
+<body>
+<header><p><a href="https://zivatabule.cz">← Živá tabule</a></p><h1>Tipy pro Živou tabuli</h1><p>Krátké návody a nápady do výuky. Jednoduše a prakticky.</p></header>
+<main><div class="catalog">{tools.map(tool => <a class="card" href={tool.href}><h2>{tool.title}</h2><p>{tool.description}</p></a>)}</div></main>
+<footer>Živá tabule · Bez účtu. Bez reklam. Bez sledování.</footer>
+</body></html>
