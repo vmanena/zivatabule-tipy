@@ -67,7 +67,7 @@ Praktické inspirace: rychlá zpětná vazba, stejná otázka před výkladem a 
 - Jednoduchost, čitelnost a přístupnost jsou důležitější než efektní grafika.
 - Screenshoty používat jen tehdy, když skutečně pomohou.
 - V nadpisech nástrojů a jednotlivých pedagogických inspirací nepoužívat emoji. Jedinou dohodnutou výjimkou je označení **💡 Tip na začátek**.
-- U návodů zachovávat jednotné názvy hlavních sekcí **Jak na to** a **Inspirace do výuky**. Praktický tip na začátek může být součástí stránky, pokud je užitečný.
+- U návodů zachovávat jednotné názvy hlavních sekcí **Jak na to** a **Inspirace do výuky**. Označení **💡 Tip na začátek** patří výhradně na úvodní stránku; v návodech se nepoužívá. Nápady neopakovat v závěrečném boxu, pokud už jsou uvedené v sekci **Inspirace do výuky**.
 
 ## Propojení s blogem
 
