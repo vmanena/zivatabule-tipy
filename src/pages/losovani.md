@@ -49,5 +49,5 @@ Losujte slova, situace nebo podmínky pro tvorbu. V češtině může být vylos
 
 ### Jak budeme opakovat?
 
-Nelosejte obsah, ale způsob práce. Připravte například položky *Vysvětli vlastními slovy*, *Uveď příklad z praxe*, *Nakresli schéma*, *Vymysli otázku* nebo *Najdi chybu v tvrzení*.
+Nelosujte obsah, ale způsob práce. Připravte například položky *Vysvětli vlastními slovy*, *Uveď příklad z praxe*, *Nakresli schéma*, *Vymysli otázku* nebo *Najdi chybu v tvrzení*.
 
