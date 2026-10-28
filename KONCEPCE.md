@@ -38,6 +38,15 @@ Názvy volitelných sekcí lze přizpůsobit nástroji; u Hlasování napříkla
 
 Úvodní stránka obsahuje krátký konkrétní tip na začátek a automatický katalog nástrojů, generovaný z Markdown souborů. Nový nástroj nemá vyžadovat ruční editaci seznamu.
 
+### Tipy na začátek
+
+- Seznam krátkých tipů pro úvodní sekci **💡 Tip na začátek** je uložen v souboru `src/data/tipy.json`.
+- Každá položka obsahuje `text` (konkrétní inspirace pro výuku), `href` (odkaz na stránku nástroje, např. `/odpocet/`) a `label` (název nástroje, např. `Odpočet`).
+- Tipy se na úvodní stránce střídají podle data; přidáním položek do JSON rozšiřujeme jejich nabídku, nikoli rozhraní stránky.
+- Když uživatel požádá **„Přidej k tipům na začátek tipy k nástroji X“**, najít příslušnou stránku nástroje v `src/pages/`, navrhnout krátké praktické tipy odpovídající jejímu obsahu a **přímo doplnit** položky do `src/data/tipy.json` na GitHubu. Zachovat existující tipy, zabránit duplicitám, dodržet strukturu JSON a změnu publikovat do větve `main`.
+- Tipy mají být stručné, konkrétní a pedagogicky užitečné; bez emoji v samotném textu. Po úpravě ověřit platnost JSON a potvrdit provedení.
+
+
 ## Vzorová stránka: Hlasování
 
 Referenční stránka: `src/pages/hlasovani.md`.
