@@ -57,6 +57,8 @@ Praktické inspirace: rychlá zpětná vazba, stejná otázka před výkladem a 
 - **Oba typy boxů zapisovat jednotně jako standardní Markdown blockquote**: řádek začíná znakem `>` a tučným označením, např. `> **Proč to funguje?** ...` nebo `> **Na co si dát pozor?** ...`. Vzhled určuje společné CSS pro `blockquote`, nikoli pozice odstavce. Technicky jde o citaci použitou jako poznámkový box; při případném přechodu na sémantické komponenty zachovat jednoduchost editace.
 - Jednoduchost, čitelnost a přístupnost jsou důležitější než efektní grafika.
 - Screenshoty používat jen tehdy, když skutečně pomohou.
+- V nadpisech nástrojů a jednotlivých pedagogických inspirací nepoužívat emoji. Jedinou dohodnutou výjimkou je označení **💡 Tip na začátek**.
+- U návodů zachovávat jednotné názvy hlavních sekcí **Jak na to** a **Inspirace do výuky**. Praktický tip na začátek může být součástí stránky, pokud je užitečný.
 
 ## Propojení s blogem
 
