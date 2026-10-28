@@ -48,5 +48,20 @@
     "text": "Rozdejte pracovní list v PDF bez e-mailů: nahrajte soubor a promítněte QR kód.",
     "href": "/prenos-souboru/",
     "label": "Přenos souborů"
+  },
+  {
+    "text": "Při práci ve dvojici vyhraďte dvě minuty na vysvětlení a další dvě na otázky. Role pak prohoďte.",
+    "href": "/odpocet/",
+    "label": "Odpočet"
+  },
+  {
+    "text": "Na závěr hodiny nastavte tři minuty: každý žák napíše jednu věc, kterou se naučil, a jednu otázku.",
+    "href": "/odpocet/",
+    "label": "Odpočet"
+  },
+  {
+    "text": "Při hledání chyb v textu nastavte krátký čas na samostatnou práci a potom nechte žáky porovnat výsledky.",
+    "href": "/odpocet/",
+    "label": "Odpočet"
   }
 ]
