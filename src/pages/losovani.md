@@ -51,6 +51,3 @@ Losujte slova, situace nebo podmínky pro tvorbu. V češtině může být vylos
 
 Nelosejte obsah, ale způsob práce. Připravte například položky *Vysvětli vlastními slovy*, *Uveď příklad z praxe*, *Nakresli schéma*, *Vymysli otázku* nebo *Najdi chybu v tvrzení*.
 
-## 💡 Tip na začátek
-
-**Losujte otázky místo žáků.** Připravte pět otázek k opakování, jednu vylosujte a nechte všechny žáky chvíli přemýšlet. Až potom vyberte někoho, kdo odpoví. Do aktivity se tak může zapojit celá třída.
