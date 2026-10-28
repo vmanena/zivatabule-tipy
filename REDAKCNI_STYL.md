@@ -1,19 +1,19 @@
 # Redakční styl návodů Živé tabule
 
-Platí pro všechny návody na tipy.zivatabule.cz.
+Tento dokument doplňuje [KONCEPCE.md](KONCEPCE.md). Při rozporu má přednost KONCEPCE.md.
 
 ## Jednotná struktura
-1. Název nástroje (bez emoji).
-2. Krátký úvod: účel a přínos nástroje.
-3. „Jak nástroj používat“: stručný, ověřený postup.
-4. „Nápady na využití ve výuce“: konkrétní příklady s krátkými nadpisy.
-5. „💡 Tip na začátek“: jedna snadno použitelná aktivita.
+- Jeden nástroj = jedna stránka v `src/pages/<nazev>.md`, s frontmatter `title`, `description`, `order`, `layout: ../layouts/TipLayout.astro`.
+- Nadpis nástroje, krátký praktický úvod a odkaz/tlačítko **Otevřít Živou tabuli**.
+- **Jak na to** – stručný a ověřený postup.
+- **Inspirace do výuky** – konkrétní nápady, každý s nadpisem H3; případně poznámka `> **Proč to funguje?** ...` nebo `> **Na co si dát pozor?** ...`.
+- Volitelně vysvětlení návrhového rozhodnutí.
+- **💡 Tip na začátek** může být součástí návodu, pokud je vhodný; na úvodní stránce se tipy mohou střídat.
 
-## Jazyk a formát
-- Pište česky, srozumitelně, přátelsky a věcně; oslovujte učitele.
-- Nepoužívejte emoji v názvu nástroje, podnadpisech ani u jednotlivých příkladů. Jediná výjimka je „💡 Tip na začátek“.
-- Nadpisy sekcí a jejich pořadí zachovávejte napříč návody.
-- Odstavce držte krátké; používejte konkrétní školní situace.
-- Funkce aplikace a názvy ovládacích prvků uvádějte pouze po ověření; nepřisuzujte nástroji neověřené možnosti.
-- Závěrečný tip musí být praktický, ne reklamní.
-- Neopakujte v každém návodu obecné reklamní slogany.
+## Styl
+- Emoji nepoužívat v názvech nástrojů ani u jednotlivých příkladů. Výjimka: **💡 Tip na začátek**.
+- Stručný, přátelský a konkrétní jazyk; nejdřív použití ve výuce, pak didaktické souvislosti.
+- Zachovat stejné názvy základních sekcí ve všech návodech.
+- Nevymýšlet ovládací prvky nebo neověřené funkce; podle potřeby ověřit aktuální aplikaci.
+- Nápady přehledně oddělovat; pedagogické poznámky psát jako standardní Markdown blockquote.
+- Bez opakovaných reklamních sloganů; společnou patičku spravuje šablona.
