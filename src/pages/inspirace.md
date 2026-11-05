@@ -43,6 +43,8 @@ Rozcestník k pracovním listům, ukázkám podvodných zpráv a dalším materi
 
 Novinky, návody a pohled do zákulisí Živé tabule.
 
-## Další užitečné odkazy
+## Kdo za tím stojí
 
-Další zajímavé materiály budeme postupně doplňovat.
+### [WhatsApp kanál ↗](https://whatsapp.com/channel/0029Vb7gl3o8F2pLRZfVh114)
+
+Novinky, tipy a zajímavosti ze světa vzdělávání a technologií.
