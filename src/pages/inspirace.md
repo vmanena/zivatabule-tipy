@@ -29,7 +29,7 @@ Zjistěte, jaké informace může o vašem zařízení a prohlížeči zjistit n
 
 ## Články a materiály
 
-### [Pomůcky ke školením kyberprevence ↗](https://github.com/vmanena/kyberprevence)
+### [Pomůcky ke školením kyberprevence ↗](https://vmanena.github.io/kyberprevence/)
 
 Rozcestník k pracovním listům, ukázkám podvodných zpráv a dalším materiálům pro výuku kyberbezpečnosti.
 
@@ -45,7 +45,7 @@ Novinky, návody a pohled do zákulisí Živé tabule.
 
 ## Kdo za tím stojí
 
-Za Živou tabulí stojí Václav Maněna, učitel a lektor, který sdílí praktické tipy a materiály pro výuku. Další novinky a inspiraci najdete také zde:
+Živá tabule vzniká díky spolupráci několika lidí. Jedním z nich je Václav Maněna, učitel a lektor, který se věnuje také tvorbě výukových materiálů a sdílení praktických tipů pro učitele. Další novinky a inspiraci najdete na jeho kanálech.
 
 ### [YouTube – Videovýuka s Václavem Maněnou ↗](https://www.youtube.com/@videovyuka)
 
