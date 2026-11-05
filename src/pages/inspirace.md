@@ -45,7 +45,7 @@ Novinky, návody a pohled do zákulisí Živé tabule.
 
 ## Kdo za tím stojí
 
-Živá tabule vzniká díky spolupráci několika lidí. Jedním z nich je Václav Maněna, učitel a lektor, který se věnuje také tvorbě výukových materiálů a sdílení praktických tipů pro učitele. Další novinky a inspiraci najdete na jeho kanálech.
+**Za Živou tabulí stojí tým lidí, kteří společně pracují na jejím vývoji a rozvoji.** Jedním z hlavních iniciátorů projektu je Václav Maněna, učitel a lektor, který se věnuje také tvorbě výukových materiálů a sdílení praktických tipů pro učitele. Jeho další projekty, novinky a inspiraci můžete sledovat na následujících kanálech.
 
 ### [YouTube – Videovýuka s Václavem Maněnou ↗](https://www.youtube.com/@videovyuka)
 
