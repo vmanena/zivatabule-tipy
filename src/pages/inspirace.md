@@ -15,10 +15,6 @@ Na jednom místě najdete další nástroje, články a materiály, které se mo
 
 Pomůcka pro tvorbu a zkoušení hesel, heslových frází a PINů.
 
-### FotoStopa
-
-Nástroj pro zkoumání toho, co všechno může fotografie prozradit. Odkaz doplníme po ověření veřejné adresy.
-
 ## Články a materiály
 
 ### [Maněna.info ↗](https://manena.info/)
