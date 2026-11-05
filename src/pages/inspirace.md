@@ -45,6 +45,25 @@ Novinky, návody a pohled do zákulisí Živé tabule.
 
 ## Kdo za tím stojí
 
+Za Živou tabulí stojí Václav Maněna, učitel a lektor, který sdílí praktické tipy a materiály pro výuku. Další novinky a inspiraci najdete také zde:
+
+### [YouTube – Videovýuka s Václavem Maněnou ↗](https://www.youtube.com/@videovyuka)
+
+Videa a praktické návody pro učitele.
+
+### [KYBcast ↗](https://kybcast.transistor.fm/)
+
+Podcast o kyberbezpečnosti, technologiích a vzdělávání.
+
+### [Facebooková skupina Výuka informatiky ↗](https://www.facebook.com/groups/vyuka.ict)
+
+Sdílení zkušeností, materiálů a nápadů mezi učiteli.
+
+### [Newsletter Václava Maněny ↗](https://manena.info/newsletter/)
+
+Novinky, tipy a zajímavosti ze světa vzdělávání přímo do e-mailu.
+
+
 ### [WhatsApp kanál ↗](https://whatsapp.com/channel/0029Vb7gl3o8F2pLRZfVh114)
 
 Novinky, tipy a zajímavosti ze světa vzdělávání a technologií.
